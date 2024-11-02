@@ -1,0 +1,95 @@
+*{
+    padding: 0px auto;
+    margin: 0px auto;
+}
+
+body{
+    width: 100%;
+    height: 2200px;
+}
+
+.top{
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    line-height: 50px;
+    background-image: url("../IMG/bg-top.jpg");
+}
+
+.top-left{
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-top: -40px;
+}
+
+.top-right{
+    float: right;
+    width: 80%;
+    height: 100%;
+}   
+
+.top-right ul h1{ 
+    list-style: none;
+    float: right;
+    margin-right: 400px;
+    margin-top: 30px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.top-right ul h2{
+    display: inline-block;
+    margin-left: 370px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu{
+    background-color: #000;
+    height: 60px;
+    width: 98%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.menu input{            
+    background: transparent; /* Nền trong suốt */
+    border: 3px solid #423e3e; /* Đường viền */
+    width: 30%;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 150px;
+    font-size: 20px;;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.menu ul li{    
+    float: left;
+    margin-left: 80px;
+    margin-top: 5px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.menu ul li a:hover{
+    color: red;
+}
